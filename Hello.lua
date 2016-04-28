@@ -5,9 +5,9 @@
 -- 	IQ = 125
 -- }
 
--- function helloAdd( num1,num2 )
--- 	return (num1 + num2)
--- end
+function helloAdd( num1,num2 )
+return (num1 + num2)
+end
 
 local num1,num2,num3 = cpp_GetNumber(10,20)
 print("lua_num1 = " .. num1)
